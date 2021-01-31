@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LinqTestBench
 {
-    public delegate TResult MyFunc<T, TResult>(T t); // This is how Func<T, TResult> is defined.
+    public delegate TResult MyFunc<T, TResult>(T t); // This is an equivalent to Func<T, TResult>.
 
     static class MyEnumerable
     {
